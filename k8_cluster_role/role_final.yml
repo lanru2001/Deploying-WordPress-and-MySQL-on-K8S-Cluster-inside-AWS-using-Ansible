@@ -1,0 +1,7 @@
+- hosts: masterNode
+  roles:
+    - role: k8s-master
+
+- hosts: workerNode
+  roles:
+    - role: k8s-slave
